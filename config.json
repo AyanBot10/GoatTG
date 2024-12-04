@@ -1,0 +1,23 @@
+{
+  "antiInbox": false,
+  "language": "en",
+  "nickNameBot": "A Y A N",
+  "prefix": "/",
+  "adminOnly": {
+    "enable": false,
+    "ignoreCommand": []
+  },
+  "adminBot": [
+    "5846638420"
+  ],
+  "timeZone": "Asia/Dhaka",
+  "autoRestart": {
+    "time": null
+  },
+  "database": {
+    "type": "sqlite",
+    "uriMongodb": "",
+    "autoSyncWhenStart": false,
+    "autoRefreshThreadInfoFirstTime": true
+  }
+}

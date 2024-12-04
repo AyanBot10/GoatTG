@@ -1,0 +1,35 @@
+{
+  "name": "Yuki Telegram.",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=&& node Index.js",
+    "dev": "set NODE_ENV=development&& node Index.js",
+    "prod": "set NODE_ENV=production&& node Index.js"
+  },
+  "keywords": [],
+  "author": "Allou Mohamed",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "canvas": "^2.11.2",
+    "cheerio": "^1.0.0",
+    "child_process": "^1.0.2",
+    "form-data": "^4.0.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.2.0",
+    "gradient-string": "^2.0.2",
+    "graphql-query-to-json": "^2.0.1",
+    "lodash": "^4.17.21",
+    "mime-db": "^1.53.0",
+    "moment-timezone": "^0.5.45",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0",
+    "path": "^0.12.7",
+    "sequelize": "^6.19.0",
+    "sqlite3": "^5.0.5",
+    "unlimited-ai": "^2.0.2"
+  }
+}

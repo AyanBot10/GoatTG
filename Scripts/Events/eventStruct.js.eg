@@ -1,0 +1,13 @@
+module.exports = {
+  config: {
+    name: "name",
+    category: "Info",
+    author: "allou Mohamed",//author 
+    description: {
+      en: "en desc",
+      ar: "ar desc"
+    }
+  },
+  onStart: async function(){},
+  onLoad: async function({ api }) {}
+};
